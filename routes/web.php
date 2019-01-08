@@ -16,6 +16,8 @@
         return view('admin.home');
     });
 
+    // admin login and register routes
+
     Route::resource('/slider', 'SliderController');
 
     Route::resource('/page', 'PageController');
@@ -44,4 +46,10 @@
 
     Route::resource('/survey', 'SurveyController');
 
+    Route::resource('/orders', 'OrderController');
+
 // });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

@@ -24,7 +24,7 @@ class CarouselController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.carousel');
     }
 
     /**

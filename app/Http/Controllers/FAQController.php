@@ -24,7 +24,7 @@ class FAQController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.faq');
     }
 
     /**

@@ -20,7 +20,8 @@
     <section class="content">
       <div lass="container-fluid">
 
-         <h1 class="text-center">pages</h1>
+         <h1 class="text-center">about us</h1>
+         <h1 class="text-center">privacy policy</h1>
          
         </div>
 

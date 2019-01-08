@@ -1,15 +1,15 @@
-@extends('admin.home')
+@extends('admin.index')
 
 
 
-@section('page')
+@section('content')
 
 
 
     <!-- Main content -->
     <section class="content">
       <div lass="container-fluid">
-         <h1 class="text-center">slider page</h1>
+         <h1 class="text-center">sliderxxxxxxxxxx</h1>
         </div>
 
 
