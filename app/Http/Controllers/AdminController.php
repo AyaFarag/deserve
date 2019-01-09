@@ -4,6 +4,10 @@ namespace App\Http\Controllers;
 
 use App\Models\Admin;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Validation\ValidationException;
+use Illuminate\Auth\Events\Registered;
 
 class AdminController extends Controller
 {
@@ -14,7 +18,32 @@ class AdminController extends Controller
      */
     public function index()
     {
-        //
+        return view('admin.home');
+    }
+
+    protected function guard()
+    {
+        return Auth::guard('admin');
+    }
+
+    public function loginForm()
+    {
+
+        return view('admin.auth.login');
+    }
+
+    public function login()
+    {
+
+        if(auth::guard('admin')->attempt(['email'=> request('email'), 'password'=> request('password')] ))
+        {
+            return redirect('/dashboard');
+        }
+        else
+        {
+            return back();
+        }
+
     }
 
     /**
@@ -22,7 +51,29 @@ class AdminController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+    public function showRegistrationForm()
+    {
+        return view('admin.auth.register');
+    }
+
+    // register
     public function create()
+    {
+
+    }
+
+
+    public function logout(Request $request)
+    {
+        $this->guard()->logout();
+
+        $request->session()->invalidate();
+
+        return $this->loggedOut($request) ?: redirect('/login/form');
+    }
+
+    protected function loggedOut(Request $request)
     {
         //
     }

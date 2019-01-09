@@ -7,12 +7,13 @@
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Font Awesome -->
+  <link rel="stylesheet" href="/css/admin.css">
   <link rel="stylesheet" href="/admin/plugins/font-awesome/css/font-awesome.min.css">
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="/admin/dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="/admin/dist/css/adminlte.css">
   <!-- iCheck -->
   <link rel="stylesheet" href="/admin/plugins/iCheck/flat/blue.css">
   <!-- Morris chart -->
@@ -35,15 +36,15 @@
   <nav class="main-header navbar navbar-expand navbar-light border-bottom" style="background-color:rgb(128, 0, 128);">
     <!-- Left navbar links -->
     <ul class="navbar-nav">
-        
+
     </ul>
 
- 
+
 
 
     <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">
-      <p style="color:#fff">LogOut</p>
+     <a href="{{ route('admin.logout') }}"> <p style="color:#fff">LogOut</p> </a>
     </ul>
   </nav>
   <!-- /.navbar -->

@@ -11,7 +11,7 @@
       <span class="brand-text font-weight-light" style="color:#fff">Deserve.com</span>
       <p style="color:#fff">You Deserve the Best</p>
     </a>
-    
+
 
     <!-- Sidebar -->
     <div class="sidebar">
@@ -21,7 +21,7 @@
           <img src="/admin/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="/" class="d-block" style="color:#fff">Aya Ahmed</a>
+          <a href="/" class="d-block" style="color:#fff">Aya</a>
         </div>
       </div>
 
@@ -30,15 +30,15 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-               
+
           {{-- slider --}}
           {{-- ------------------------------------------------------------- --}}
             <li class="nav-item has-treeview">
-            <a href="/slider/create" class="nav-link active" style="background-color:#F9A602">
+            <a href="/slider/create" class="nav-link ex">
               <i class="nav-icon fa fa-dashboard"></i>
               <p>
                 Slider
-                
+
               </p>
             </a>
 
@@ -82,10 +82,10 @@
               <i class="nav-icon fa fa-dashboard"></i>
               <p>
                 Sections
-                
+
               </p>
             </a>
-           
+
           </li>
           {{-- Partitions --}}
           {{-- ------------------------------------------------------------- --}}
@@ -94,7 +94,7 @@
               <i class="nav-icon fa fa-dashboard"></i>
               <p>
                 Partitions
-               
+
               </p>
             </a>
 
@@ -106,7 +106,7 @@
               <i class="nav-icon fa fa-dashboard"></i>
               <p>
                 Category
-               
+
               </p>
             </a>
 
@@ -118,7 +118,7 @@
               <i class="nav-icon fa fa-dashboard"></i>
               <p>
                 Tags
-               
+
               </p>
             </a>
 
@@ -130,7 +130,7 @@
               <i class="nav-icon fa fa-dashboard"></i>
               <p>
                 Footer
-                
+
               </p>
             </a>
 
@@ -142,7 +142,7 @@
               <i class="nav-icon fa fa-dashboard"></i>
               <p>
                 Carousel
-                
+
               </p>
             </a>
 
@@ -154,7 +154,7 @@
               <i class="nav-icon fa fa-dashboard"></i>
               <p>
                 Packages
-               
+
               </p>
             </a>
 
@@ -166,7 +166,7 @@
               <i class="nav-icon fa fa-dashboard"></i>
               <p>
                 Contact Us
-               
+
               </p>
             </a>
 
@@ -178,7 +178,7 @@
               <i class="nav-icon fa fa-dashboard"></i>
               <p>
                 Subscribers
-               
+
               </p>
             </a>
 
@@ -190,7 +190,7 @@
               <i class="nav-icon fa fa-dashboard"></i>
               <p>
                 Ads
-                
+
               </p>
             </a>
 
@@ -202,7 +202,7 @@
               <i class="nav-icon fa fa-dashboard"></i>
               <p>
                 FAQ
-               
+
               </p>
             </a>
 
@@ -214,7 +214,7 @@
               <i class="nav-icon fa fa-dashboard"></i>
               <p>
                 Surveys
-               
+
               </p>
             </a>
           </li>
@@ -225,7 +225,7 @@
               <i class="nav-icon fa fa-dashboard"></i>
               <p>
                 New Orders
-                
+
               </p>
             </a>
 
