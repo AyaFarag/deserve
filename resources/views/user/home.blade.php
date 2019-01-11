@@ -265,6 +265,9 @@
 
         </div>
     </div>
+    <h1>case studies</h1>
+    <h1>about us</h1>
+    <h1>contact us</h1>
 {{--  --}}
 {{-- footer --}}
 
