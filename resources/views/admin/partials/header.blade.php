@@ -33,7 +33,7 @@
 <div class="wrapper">
 
   <!-- Navbar -->
-  <nav class="main-header navbar navbar-expand navbar-light border-bottom" style="background-color:rgb(128, 0, 128);">
+  <nav class="main-header navbar navbar-expand navbar-light border-bottom" style="background-color:#5618e6">
     <!-- Left navbar links -->
     <ul class="navbar-nav">
 

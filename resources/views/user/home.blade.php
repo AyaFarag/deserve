@@ -22,7 +22,7 @@
                 <a class="nav-link" href="#">Contact us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="#">FAQ</a>
+                <a class="nav-link " href="#">Case Studies</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link " href="#">Privacy Policy</a>
@@ -41,22 +41,25 @@
             <div class="carousel-item active">
               <img class="d-block w-100" src="/image/18.jpeg" alt="First slide">
               <div class="carousel-caption d-none d-md-block">
-                  <h5>deserve.com</h5>
+                  <h1>Start your bussiness right now</h1>
                   <p>...</p>
+                  <a href="/" class="btn btn-success">Start Now</a>
                 </div>
             </div>
             <div class="carousel-item">
               <img class="d-block w-100" src="/image/13.jpeg" alt="Second slide">
               <div class="carousel-caption d-none d-md-block">
-                  <h5>Hello world</h5>
+              <h1>Build your brand</h1>
                   <p>...</p>
+                  <a href="/" class="btn btn-success">Start Now</a>
                 </div>
             </div>
             <div class="carousel-item">
               <img class="d-block w-100" src="/image/10.jpeg" alt="Third slide">
               <div class="carousel-caption d-none d-md-block">
-                  <h5>welcome</h5>
+                  <h1>Get your right audience</h1>
                   <p>...</p>
+                  <a href="/" class="btn btn-success">Start Now</a>
                 </div>
             </div>
           </div>
@@ -72,7 +75,7 @@
     </div>
     </div>
 {{--  --}}
-<div style="background-color:#007b5e; padding:15px; padding-bottom:40px;">
+<div class="ss" style=" padding:15px; padding-bottom:40px;">
     <div class="container text-light" style="margin-top:50px;">
         <div class="text-center h3">Lorem Ipsum is simply dummy text of the printing and typesetting</div>
         <div>
@@ -101,7 +104,7 @@
 </div>
 {{--  --}}
 <div class="container" style="margin-top:50px;">
-        <div class="text-center h3">Lorem Ipsum is simply dummy text of the </div>
+        <div class="text-center h3">What is e-commerce future ? </div>
 <div class="row" style="margin-top:50px;">
         <div class="col col-md-6">
             <img src="/image/4.jpg" />
@@ -129,7 +132,7 @@
             software like Aldus PageMaker including versions of Lorem Ipsum.</span>
         </div>
         <div class="col col-md-6">
-            <img src="/image/11.jpeg" />
+            <img src="/image/11.jpeg"/>
         </div>
     </div>
 </div>
@@ -150,16 +153,107 @@
     </div>
 </div>
 <!-- /.container-fluid -->
+
 {{--  --}}
-<div style="background-color:#007b5e; padding:15px; padding-bottom:40px;">
+<div class="ss" style=" padding:15px; padding-bottom:40px " >
+<div class="container" style="margin-top:50px; color:#fff" >
+        <div class="text-center h3">Trusted by over 300,000 businessess and merchants</div>
+        <div>
+        <div class="row" style="margin-top:50px; ">
+
+                <div class="col col-md-3">
+                    <h6>heading</h6>
+                    <p>vflv,flv,fvlf,vf,lf,vlf,vl,l</p>
+                </div>
+                <div class="col col-md-3">
+                    <h6>heading</h6>
+                    <p>vflv,flv,fvlf,vf,lf,vlf,vl,l</p>
+                </div>
+                <div class="col col-md-3">
+                    <h6>heading</h6>
+                    <p>vflv,flv,fvlf,vf,lf,vlf,vl,l</p>
+                </div>
+                <div class="col col-md-3">
+                    <h6>heading</h6>
+                    <p>vflv,flv,fvlf,vf,lf,vlf,vl,l</p>    
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+{{--  --}}
+
+    <!-- case studies -->
+    
+    <div class="container border border-primary" style="margin-top:50px;">
+    <div class="text-center">
+    <span class=" h1 text-light ss " style="padding:10px">case studies</span>
+    </div>
+    <div class="row">
+        <div class="col col-md-6">
+            <img src="image/21.png" />
+            <p> dedededfrferfr </p>
+        </div>
+        <div class="col col-md-6">
+            <img src="image/21.png" />
+            <p> dedededfrferfr </p>
+        </div>
+        <div class="col col-md-6">
+            <img src="image/21.png" />
+            <p> dedededfrferfr </p>
+        </div>
+        <div class="col col-md-6">
+            <img src="image/21.png" />
+            <p> dedededfrferfr </p>
+        </div>
+    </div>
+    </div>
+    {{--  --}}
+<div class="container" style="margin-top:50px;">
+        <div class="text-center h3">Our Services</div>
+        <div>
+        <div class="row" style="margin-top:50px;">
+
+                <div class="col col-md-2">
+                    <h6>heading</h6>
+                    <p>on hover change color</p>
+                </div>
+                <div class="col col-md-2">
+                    <h6>heading</h6>
+                    <p>vflv,flv,fvlf,vf,lf,vlf,vl,l</p>
+                </div>
+                <div class="col col-md-2">
+                    <h6>heading</h6>
+                    <p>vflv,flv,fvlf,vf,lf,vlf,vl,l</p>
+                </div>
+                <div class="col col-md-2">
+                    <h6>heading</h6>
+                    <p>vflv,flv,fvlf,vf,lf,vlf,vl,l</p>    
+                </div>
+                <div class="col col-md-2">
+                    <h6>heading</h6>
+                    <p>vflv,flv,fvlf,vf,lf,vlf,vl,l</p>    
+                </div>
+                <div class="col col-md-2">
+                    <h6>heading</h6>
+                    <p>vflv,flv,fvlf,vf,lf,vlf,vl,l</p>    
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    {{-- packages --}}
+<div class="ss" style=" padding:15px; padding-bottom:40px; margin-top:50px;">
 <div class="container" style="margin-top:50px; ">
-        <div class="text-center h3 text-light">Packages available </div>
+        <div class="text-center h3 text-light">GET YOUR BEST PACKAGE OFFER NOW </div>
 <div class="row" style="margin-top:50px;">
         <div class="col col-md-4">
         <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
+            
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title text-center">SILVER</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
             <ul class="list-group list-group-flush">
@@ -175,9 +269,9 @@
         </div>
         <div class="col col-md-4">
                 <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
+           
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title text-center">GOLD</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
             <ul class="list-group list-group-flush">
@@ -186,16 +280,16 @@
                 <li class="list-group-item">Vestibulum at eros</li>
             </ul>
             <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link ">Card link</a>
                 <a href="#" class="card-link">Another link</a>
             </div>
             </div>
         </div>
         <div class="col col-md-4">
         <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
+           
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title text-center">BLACK</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
             <ul class="list-group list-group-flush">
@@ -212,62 +306,58 @@
     </div>
 </div>
 </div>
-{{--  --}}
-<div class="container" style="margin-top:50px;">
-        <div class="text-center h3">Trusted by over 300,000 customer</div>
-        <div>
-        <div class="row" style="margin-top:50px;">
+    <!-- about us -->
 
-                <div class="col col-md-3">
-                    <h6>heading</h6>
-                    <p>vflv,flv,fvlf,vf,lf,vlf,vl,l</p>
-                </div>
-                <div class="col col-md-3">
-                    <h6>heading</h6>
-                    <p>vflv,flv,fvlf,vf,lf,vlf,vl,l</p>
-                </div>
-                <div class="col col-md-3">
-                    <h6>heading</h6>
-                    <p>vflv,flv,fvlf,vf,lf,vlf,vl,l</p>
-                </div>
-                <div class="col col-md-3">
-                    <h6>heading</h6>
-                    <p>vflv,flv,fvlf,vf,lf,vlf,vl,l</p>    
-                </div>
-            </div>
-
+    <div class="container" style="margin-top:50px;">
+        <h3 class=""> About Us</h3>
+        <div class="row">
+        <div class="col col-md-6">
+        <span> 
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+         when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic 
+         typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+         the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+         when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic 
+         typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+         the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+         </span>
+        </div>
+        <div class="col col-md-6 ">
+        <img src="/image/20.png" alt="about us" class="float-right"/>
+        </div>
         </div>
     </div>
-{{--  --}}
-{{--  --}}
-<div class="container" style="margin-top:50px;">
-        <div class="text-center h3">Supported by over 300,000 brands</div>
+    
+    <!-- contact us -->
+    <div class="container"  style="margin-top:50px;">
+        <h3> Contact Us</h3>
         <div>
-        <div class="row" style="margin-top:50px;">
-
-                <div class="col col-md-3">
-                    <h6>heading</h6>
-                    <p>vflv,flv,fvlf,vf,lf,vlf,vl,l</p>
-                </div>
-                <div class="col col-md-3">
-                    <h6>heading</h6>
-                    <p>vflv,flv,fvlf,vf,lf,vlf,vl,l</p>
-                </div>
-                <div class="col col-md-3">
-                    <h6>heading</h6>
-                    <p>vflv,flv,fvlf,vf,lf,vlf,vl,l</p>
-                </div>
-                <div class="col col-md-3">
-                    <h6>heading</h6>
-                    <p>vflv,flv,fvlf,vf,lf,vlf,vl,l</p>    
-                </div>
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Name</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your name">
             </div>
 
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+
+            <div class="form-group">
+                <label >Message</label>
+                <textarea  class="form-control" rows="7"  placeholder="Type your message"></textarea>
+            </div>
+            <!-- <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div> -->
+            <button type="submit" class="btn btn-success">Submit</button>
+        </form>
         </div>
     </div>
-    <h1>case studies</h1>
-    <h1>about us</h1>
-    <h1>contact us</h1>
+    
 {{--  --}}
 {{-- footer --}}
 

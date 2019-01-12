@@ -1,6 +1,9 @@
 .b {
-    background-color: #f3f8ff;
-    color: #007b5e;
+    background-color: #ffffff;
+    color: #00000a;
+}
+.ss {
+    background-color: #5618e6;
 }
 
 .container{
@@ -25,7 +28,7 @@ section .section-title {
     text-transform: uppercase;
 }
 #footer {
-    background: #007b5e !important;
+    background: #5618e6 !important;
 }
 #footer h5{
 	padding-left: 10px;
