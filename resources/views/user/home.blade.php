@@ -2,35 +2,10 @@
 
 @section('usercontent')
 <!-- Main content -->
-<section class="content ">
-
-  <div class="container">
-<nav class="navbar navbar-expand-lg navbar-light ">
-        <a class="navbar-brand" href="#">Deserve</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse text-center" id="navbarNav">
-            <ul class="navbar-nav ">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">About us</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact us</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="#">Case Studies</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="#">Privacy Policy</a>
-            </li>
-            </ul>
-        </div>
-        </nav>
-      <div class="">
+<section class="section ">
+<div class="">
+<div class="row">
+      <div class="col col-md-8">
       <div id="carouselExampleIndicators" class="carousel slide slidercore" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -73,7 +48,43 @@
           </a>
         </div>
     </div>
+    
     </div>
+      <div class="col col-md-4">
+
+    
+    </div>
+    </div>
+    </div>
+  <!-- <div class="container"> -->
+<!-- <nav class="navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand" href="#">Deserve</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarNav">
+            <ul class="navbar-nav ">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#">Case Studies</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#">Privacy Policy</a>
+            </li>
+            </ul>
+        </div>
+        </nav> -->
+      <!-- <div class="container-fluid"> -->
+
+    <!-- </div> -->
 {{--  --}}
 <div class="ss" style=" padding:15px; padding-bottom:40px;">
     <div class="container text-light" style="margin-top:50px;">
@@ -243,68 +254,108 @@
 
         </div>
     </div>
-
-    {{-- packages --}}
+    <!-- packages -->
 <div class="ss" style=" padding:15px; padding-bottom:40px; margin-top:50px;">
-<div class="container" style="margin-top:50px; ">
+    <div class="container" style="margin-top:50px; ">
         <div class="text-center h3 text-light">GET YOUR BEST PACKAGE OFFER NOW </div>
-<div class="row" style="margin-top:50px;">
-        <div class="col col-md-4">
-        <div class="card" style="width: 18rem;">
+            <div class="row" style="margin-top:50px;">
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+				
+                <!-- PRICE ITEM -->
+                <div class="panel price panel-red">
+                    <div class="panel-heading  text-center">
+                    <h3>PRO PLAN</h3>
+                    </div>
+                    <div class="panel-body text-center">
+                        <p class="lead" style="font-size:40px"><strong>$10</strong></p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item"><i class="icon-ok text-danger"></i> Personal use</li>
+                        <li class="list-group-item"><i class="icon-ok text-danger"></i> Unlimited projects</li>
+                        <li class="list-group-item"><i class="icon-ok text-danger"></i> 27/7 support</li>
+                    </ul>
+                    <div class="panel-footer">
+                        <a class="btn btn-lg btn-block btn-danger" href="#">BUY NOW!</a>
+                    </div>
+                </div>
+                <!-- /PRICE ITEM -->
+                
+                
+            </div>
             
-            <div class="card-body">
-                <h5 class="card-title text-center">SILVER</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            
+                <!-- PRICE ITEM -->
+                <div class="panel price panel-blue">
+                    <div class="panel-heading arrow_box text-center">
+                    <h3>DEV PLAN</h3>
+                    </div>
+                    <div class="panel-body text-center">
+                        <p class="lead" style="font-size:40px"><strong>$20 </strong></p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item"><i class="icon-ok text-info"></i> Personal use</li>
+                        <li class="list-group-item"><i class="icon-ok text-info"></i> Unlimited projects</li>
+                        <li class="list-group-item"><i class="icon-ok text-info"></i> 27/7 support</li>
+                    </ul>
+                    <div class="panel-footer">
+                        <a class="btn btn-lg btn-block btn-info" href="#">BUY NOW!</a>
+                    </div>
+                </div>
+                <!-- /PRICE ITEM -->
+                
+                
             </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">Cras justo odio</li>
-                <li class="list-group-item">Dapibus ac facilisis in</li>
-                <li class="list-group-item">Vestibulum at eros</li>
-            </ul>
-            <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
+            
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            
+                <!-- PRICE ITEM -->
+                <div class="panel price panel-green">
+                    <div class="panel-heading arrow_box text-center">
+                    <h3>FREE PLAN</h3>
+                    </div>
+                    <div class="panel-body text-center">
+                        <p class="lead" style="font-size:40px"><strong>$50</strong></p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item"><i class="icon-ok text-success"></i> Personal use</li>
+                        <li class="list-group-item"><i class="icon-ok text-success"></i> Unlimited projects</li>
+                        <li class="list-group-item"><i class="icon-ok text-success"></i> 27/7 support</li>
+                    </ul>
+                    <div class="panel-footer">
+                        <a class="btn btn-lg btn-block btn-success" href="#">BUY NOW!</a>
+                    </div>
+                </div>
+                <!-- /PRICE ITEM -->
+                
+                
             </div>
+            
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            
+                <!-- PRICE ITEM -->
+                <div class="panel price panel-grey">
+                    <div class="panel-heading arrow_box text-center">
+                    <h3>FREE PLAN</h3>
+                    </div>
+                    <div class="panel-body text-center">
+                        <p class="lead" style="font-size:40px"><strong>$100</strong></p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item"><i class="icon-ok text-success"></i> Personal use</li>
+                        <li class="list-group-item"><i class="icon-ok text-success"></i> Unlimited projects</li>
+                        <li class="list-group-item"><i class="icon-ok text-success"></i> 27/7 support</li>
+                    </ul>
+                    <div class="panel-footer">
+                        <a class="btn btn-lg btn-block btn-primary" href="#">BUY NOW!</a>
+                    </div>
+                </div>
+                <!-- /PRICE ITEM -->
+                
+                
             </div>
-        </div>
-        <div class="col col-md-4">
-                <div class="card" style="width: 18rem;">
-           
-            <div class="card-body">
-                <h5 class="card-title text-center">GOLD</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">Cras justo odio</li>
-                <li class="list-group-item">Dapibus ac facilisis in</li>
-                <li class="list-group-item">Vestibulum at eros</li>
-            </ul>
-            <div class="card-body">
-                <a href="#" class="card-link ">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-            </div>
-            </div>
-        </div>
-        <div class="col col-md-4">
-        <div class="card" style="width: 18rem;">
-           
-            <div class="card-body">
-                <h5 class="card-title text-center">BLACK</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">Cras justo odio</li>
-                <li class="list-group-item">Dapibus ac facilisis in</li>
-                <li class="list-group-item">Vestibulum at eros</li>
-            </ul>
-            <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-            </div>
-            </div>
-        </div>
+         </div>
     </div>
-</div>
 </div>
     <!-- about us -->
 
