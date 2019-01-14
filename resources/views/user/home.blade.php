@@ -3,9 +3,9 @@
 @section('usercontent')
 <!-- Main content -->
 <section class="section ">
-<div class="">
+<div class="container" style="margin-top:50px; margin-bottom:50px;">
 <div class="row">
-      <div class="col col-md-8">
+      <div class="col col-md-10">
       <div id="carouselExampleIndicators" class="carousel slide slidercore" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -50,7 +50,7 @@
     </div>
     
     </div>
-      <div class="col col-md-4">
+      <div class="col col-md-2">
 
     
     </div>
@@ -259,7 +259,7 @@
     <div class="container" style="margin-top:50px; ">
         <div class="text-center h3 text-light">GET YOUR BEST PACKAGE OFFER NOW </div>
             <div class="row" style="margin-top:50px;">
-            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
 				
                 <!-- PRICE ITEM -->
                 <div class="panel price panel-red">
@@ -283,7 +283,7 @@
                 
             </div>
             
-            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
             
                 <!-- PRICE ITEM -->
                 <div class="panel price panel-blue">
@@ -307,7 +307,7 @@
                 
             </div>
             
-            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
             
                 <!-- PRICE ITEM -->
                 <div class="panel price panel-green">
@@ -331,29 +331,7 @@
                 
             </div>
             
-            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-            
-                <!-- PRICE ITEM -->
-                <div class="panel price panel-grey">
-                    <div class="panel-heading arrow_box text-center">
-                    <h3>FREE PLAN</h3>
-                    </div>
-                    <div class="panel-body text-center">
-                        <p class="lead" style="font-size:40px"><strong>$100</strong></p>
-                    </div>
-                    <ul class="list-group list-group-flush text-center">
-                        <li class="list-group-item"><i class="icon-ok text-success"></i> Personal use</li>
-                        <li class="list-group-item"><i class="icon-ok text-success"></i> Unlimited projects</li>
-                        <li class="list-group-item"><i class="icon-ok text-success"></i> 27/7 support</li>
-                    </ul>
-                    <div class="panel-footer">
-                        <a class="btn btn-lg btn-block btn-primary" href="#">BUY NOW!</a>
-                    </div>
-                </div>
-                <!-- /PRICE ITEM -->
-                
-                
-            </div>
+
          </div>
     </div>
 </div>
@@ -382,7 +360,7 @@
     
     <!-- contact us -->
     <div class="container"  style="margin-top:50px;">
-        <h3> Contact Us</h3>
+        <h3>Get in Touch With Us</h3>
         <div>
         <form>
             <div class="form-group">

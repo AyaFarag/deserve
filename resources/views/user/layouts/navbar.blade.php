@@ -17,22 +17,52 @@
             </li>
           </ul>
         </li>
+        
+        @guest
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="false"> <i class="fa fa-user mr-5"></i><span class="hidden-xs">My Account<i class="fa fa-angle-down ml-5"></i></span> </a>
           <ul class="dropdown-menu w-150" role="menu">
-            <li><a href="login.html">Login</a>
+
+            <li><a href="{{ route('login') }}">Login</a>
             </li>
-            <li><a href="register.html">Create Account</a>
-            </li>
-            <li class="divider"></li>
-            <li><a href="wishlist.html">Wishlist (5)</a>
-            </li>
-            <li><a href="cart.html">My Cart</a>
-            </li>
-            <li><a href="checkout.html">Checkout</a>
+            <li><a href="{{ route('register') }}">Register</a>
             </li>
           </ul>
         </li>
+        
+        @else
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="false"> <i class="fa fa-user mr-5"></i><span class="hidden-xs">{{ Auth::user()->name }}<i class="fa fa-angle-down ml-5"></i></span> </a>
+          <ul class="dropdown-menu w-150" role="menu">
+
+            <li><a href="register.html">My Account</a>
+            </li>
+            
+            <li><a href="wishlist.html">Wishlist (5)</a>
+            </li>
+
+            <li><a href="cart.html">My Cart</a>
+            </li>
+
+            <li><a href="checkout.html">Checkout</a>
+            </li>
+
+            <li>
+            <a class="dropdown-item" href="{{ route('logout') }}"
+                  onclick="event.preventDefault();
+                                document.getElementById('logout-form').submit();">
+                  {{ __('Logout') }}
+              </a>
+
+              <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                  @csrf
+              </form>
+            
+            </li>
+          
+          </ul>
+        </li>
+        @endguest
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="false"> <i class="fa fa-shopping-basket mr-5"></i> <span class="hidden-xs">
                                 Cart<sup class="text-primary">(3)</sup>
@@ -85,7 +115,7 @@
     <div class="container">
   <div class="row display-table">
     <div class="col-sm-3 vertical-align text-left hidden-xs">
-      <a href="javascript:void(0);"> <img width="" src="https://lh3.googleusercontent.com/-r0Fhzz-so14/WNf9-4M65JI/AAAAAAAAD3E/ht6IhlL9gG4ujE2Hqiq70U3jBb6KQmaAQCL0B/w180-d-h43-p-rw/logo-2.png" alt=""></a>
+      <a href="{{ url('/') }}"> <img width="" src="https://lh3.googleusercontent.com/-r0Fhzz-so14/WNf9-4M65JI/AAAAAAAAD3E/ht6IhlL9gG4ujE2Hqiq70U3jBb6KQmaAQCL0B/w180-d-h43-p-rw/logo-2.png" alt=""></a>
     </div>
     <!-- end col -->
     <div class="col-sm-7 vertical-align text-center">
