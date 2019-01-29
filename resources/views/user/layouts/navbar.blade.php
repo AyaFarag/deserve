@@ -1,4 +1,4 @@
-  <!--=========-TOP_BAR============-->
+  {{--  <!--=========-TOP_BAR============-->
   <div class="topBar">
     <div class="container ">
       <ul class="list-inline pull-left hidden-sm hidden-xs">
@@ -17,7 +17,7 @@
             </li>
           </ul>
         </li>
-        
+
         @guest
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="false"> <i class="fa fa-user mr-5"></i><span class="hidden-xs">My Account<i class="fa fa-angle-down ml-5"></i></span> </a>
@@ -29,7 +29,7 @@
             </li>
           </ul>
         </li>
-        
+
         @else
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="false"> <i class="fa fa-user mr-5"></i><span class="hidden-xs">{{ Auth::user()->name }}<i class="fa fa-angle-down ml-5"></i></span> </a>
@@ -37,7 +37,7 @@
 
             <li><a href="register.html">My Account</a>
             </li>
-            
+
             <li><a href="wishlist.html">Wishlist (5)</a>
             </li>
 
@@ -57,9 +57,9 @@
               <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                   @csrf
               </form>
-            
+
             </li>
-          
+
           </ul>
         </li>
         @endguest
@@ -108,9 +108,9 @@
       </ul>
     </div>
   </div><!--=========-TOP_BAR============-->
-    
+
  <!--=========MIDDEL-TOP_BAR============-->
-    
+
     <div class="middleBar ss">
     <div class="container">
   <div class="row display-table">
@@ -134,4 +134,71 @@
   </div>
   <!-- end  row -->
 </div>
-</div>
+</div>  --}}
+
+{{--  new navbar  --}}
+
+<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
+    <div class="container">
+    <a class="navbar-brand" href="{{ url('/') }}">IT Deserves</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav navbar-right">
+    @guest
+        <li class="nav-item"><a class="nav-link" href="{{ route('register') }}"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ route('login') }}"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    @else
+        <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Welcome {{ Auth::user()->name }}
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">My Account</a>
+                    <a class="dropdown-item" href="#">My Cart</a>
+                    <a class="dropdown-item" href="#">Wish List</a>
+                    <a class="dropdown-item" href="#">Checkout</a>
+                </div>
+            </li>
+            <li>
+                <a class="dropdown-item" href="{{ route('logout') }}"
+                    onclick="event.preventDefault();
+                                document.getElementById('logout-form').submit();">
+                    {{ __('Logout') }}
+                </a>
+                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                    @csrf
+                </form>
+            </li>
+        @endguest
+      </ul>
+
+    </div>
+    </div>
+  </nav>
+
+
