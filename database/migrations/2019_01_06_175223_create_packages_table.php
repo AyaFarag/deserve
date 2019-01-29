@@ -18,6 +18,7 @@ class CreatePackagesTable extends Migration
             $table->string('logo')->nullable();
             $table->string('price')->nullable();
             $table->string('tltle')->nullable();
+            $table->string('notes')->nullable();
             $table->text('content')->nullable();
             $table->string('buttonLink')->nullable();
             $table->string('buttonName')->nullable();

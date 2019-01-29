@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="/css/header.css">
   <link rel="stylesheet" href="/css/package.css">
   <link rel="stylesheet" href="/css/plan.css">
+  <link rel="stylesheet" href="/css/checkout.css">
   <link rel="stylesheet" href="/css/footer.css">
 
     {{--  <!-- <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->  --}}
